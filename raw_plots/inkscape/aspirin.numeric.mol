@@ -1,0 +1,1584 @@
+ 
+  -ISIS-            2D
+Used JOELib chemistry kernel (expert systems) ID is -1358605869
+ 13 13  0  0  0  0  0  0  0  0  1 V2000
+   20.2981  -15.8105    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   21.5226  -16.5029    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   19.0928  -16.5029    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   20.2981  -14.6927    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   21.5226  -17.9133    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   22.7278  -15.8040    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   19.0928  -17.9133    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   21.5033  -13.9940    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0
+   19.0863  -14.0004    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   20.2981  -18.6250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   23.9396  -16.4964    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   25.1450  -15.7977    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   23.9396  -17.9642    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  2  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  2  0  0  0  0
+  2  6  1  0  0  0  0
+  3  7  1  0  0  0  0
+  4  8  1  0  0  0  0
+  4  9  2  0  0  0  0
+  5 10  1  0  0  0  0
+  6 11  1  0  0  0  0
+  7 10  2  0  0  0  0
+ 11 12  1  0  0  0  0
+ 11 13  2  0  0  0  0
+M  END
+>  <joelib2.feature.types.atomlabel.AtomBondOrderSum>
+atom label
+versionID -1843770119
+32-bit integer
+int
+13
+4
+4
+3
+4
+3
+2
+3
+1
+2
+3
+4
+1
+2
+
+>  <joelib2.feature.types.atomlabel.AtomExplicitHydrogenCount>
+atom label
+versionID 594853679
+32-bit integer
+int
+13
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+>  <joelib2.feature.types.atomlabel.AtomIsNegative>
+atom label
+versionID -1895185798
+boolean 0,1
+boolean
+13
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+
+>  <joelib2.feature.types.atomlabel.AtomIsHalogen>
+atom label
+versionID 910169631
+boolean 0,1
+boolean
+13
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+>  <joelib2.feature.types.atomlabel.AtomIsSulfur>
+atom label
+versionID -1728210626
+boolean 0,1
+boolean
+13
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+>  <joelib2.feature.types.ElectrotopologicalState>
+atom label
+?
+64-bit floating point IEEE 754
+double
+13
+1.2550925925925926
+1.3217592592592595
+2.111712962962963
+1.1220833333333335
+2.1375925925925925
+9.474537037037037E-1
+2.047554799697657
+2.0389436885865457
+3.963648904006047
+2.0602314814814813
+1.1886111111111113
+2.0507955404383975
+3.9211866969009828
+
+>  <joelib2.feature.types.atomlabel.AtomIsUnsaturated>
+atom label
+versionID 695821252
+boolean 0,1
+boolean
+13
+1
+1
+1
+0
+1
+0
+1
+0
+0
+1
+1
+0
+0
+
+>  <joelib2.feature.types.atomlabel.AtomENPauling>
+atom label
+versionID -1218192986
+64-bit floating point IEEE 754
+double
+13
+2.5
+2.5
+2.5
+2.5
+2.5
+3.5
+2.5
+3.5
+3.5
+2.5
+2.5
+2.5
+3.5
+
+>  <joelib2.feature.types.atomlabel.AtomIsPhosphorus>
+atom label
+versionID 71999962
+boolean 0,1
+boolean
+13
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+>  <joelib2.feature.types.atomlabel.AtomKekuleBondOrderSum>
+atom label
+versionID 1803105124
+32-bit integer
+int
+13
+4
+4
+4
+4
+4
+2
+4
+1
+2
+4
+4
+4
+2
+
+>  <joelib2.feature.types.atomlabel.AtomHybridisation>
+atom label
+versionID -1572325196
+32-bit integer
+int
+13
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+3
+2
+
+>  <joelib2.feature.types.atomlabel.AtomIsNitroOxygen>
+atom label
+versionID 1074053201
+boolean 0,1
+boolean
+13
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+>  <joelib2.feature.types.atomlabel.AtomIsPhosphateOxygen>
+atom label
+versionID -552484882
+boolean 0,1
+boolean
+13
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+>  <joelib2.feature.types.atomlabel.AtomIsAxial>
+atom label
+versionID 603545047
+boolean 0,1
+boolean
+13
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+>  <joelib2.feature.types.atomlabel.AtomImplicitHydrogenCount>
+atom label
+versionID -1955417934
+32-bit integer
+int
+13
+0
+0
+1
+0
+1
+0
+1
+0
+0
+1
+0
+3
+0
+
+>  <joelib2.feature.types.atomlabel.AtomFreeElectronsCount>
+atom label
+versionID 375558304
+32-bit integer
+int
+13
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+>  <joelib2.feature.types.bondlabel.BondInAromaticSystem>
+bond label
+versionID 326621937
+boolean 0,1
+boolean
+13
+1
+1
+0
+1
+0
+1
+0
+0
+1
+0
+0
+0
+1
+
+>  <joelib2.feature.types.bondlabel.BondKekuleType>
+bond label
+versionID -1359344
+32-bit integer
+int
+13
+1
+2
+1
+2
+1
+1
+1
+2
+1
+1
+1
+2
+2
+
+>  <joelib2.feature.types.atomlabel.AtomIsOxygen>
+atom label
+versionID 788281253
+boolean 0,1
+boolean
+13
+0
+0
+0
+0
+0
+1
+0
+1
+1
+0
+0
+0
+1
+
+>  <joelib2.feature.types.atomlabel.AtomInDonAcc>
+atom label
+versionID 2884365
+boolean 0,1
+boolean
+13
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+>  <joelib2.feature.types.atomlabel.AtomHeavyValence>
+atom label
+versionID 906644647
+32-bit integer
+int
+13
+3
+3
+2
+3
+2
+2
+2
+1
+1
+2
+3
+1
+1
+
+>  <joelib2.feature.types.atomlabel.AtomIsAntiClockwise>
+atom label
+versionID -1314663235
+boolean 0,1
+boolean
+13
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+>  <joelib2.feature.types.atomlabel.AtomInRing>
+atom label
+versionID -1128670369
+boolean 0,1
+boolean
+13
+1
+1
+1
+0
+1
+0
+1
+0
+0
+1
+0
+0
+0
+
+>  <joelib2.feature.types.atomlabel.AtomIsAromaticNOxide>
+atom label
+versionID -1686946953
+boolean 0,1
+boolean
+13
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+>  <joelib2.feature.types.GraphPotentials>
+13
+1.5664228760909498
+1.5509442329062428
+1.3369293720674362
+1.3490000825665085
+1.3323815780967057
+1.2665579018391846
+1.2732614507931679
+8.329787526831591E-1
+8.32978752683159E-1
+1.272277079803832
+1.2873069521194433
+8.696984608819176E-1
+8.111017560707248E-1
+
+>  <joelib2.feature.types.atomlabel.AtomIsAmideNitrogen>
+atom label
+versionID -589954686
+boolean 0,1
+boolean
+13
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+>  <joelib2.feature.types.CharacteristicPolynomialCoefficients>
+atom label
+?
+64-bit floating point IEEE 754
+double
+13
+0.0
+1.3E1
+0.0
+-6.1E1
+0.0
+1.28E2
+0.0
+-1.18E2
+0.0
+3.8E1
+0.0
+0.0
+0.0
+
+>  <joelib2.feature.types.atomlabel.AtomInDonor>
+atom label
+versionID -2136294733
+boolean 0,1
+boolean
+13
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+>  <joelib2.feature.types.atomlabel.AtomValenceSum>
+atom label
+versionID -1023197246
+32-bit integer
+int
+13
+4
+4
+4
+4
+4
+2
+4
+1
+2
+4
+4
+4
+2
+
+>  <joelib2.feature.types.atomlabel.AtomInTerminalCarbon>
+atom label
+versionID 1485850274
+boolean 0,1
+boolean
+13
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+
+>  <joelib2.feature.types.CharacteristicPolynomial>
+atom label
+?
+64-bit floating point IEEE 754
+double
+101
+-4.5686798095703125E3
+-2.456614271757698E3
+-1.1442952810266993E3
+-3.739550014578875E2
+4.054696752077871E1
+2.309166847318353E2
+2.8807031625235675E2
+2.728533920730463E2
+2.2436659993578098E2
+1.663491466890963E2
+1.1200000000000216E2
+6.755561834785743E1
+3.4889185223767015E1
+1.3350050843474406E1
+1.0222808850427327
+-4.452793940900989
+-5.373995215303864
+-3.70596621028173
+-9.617010589687993E-1
+1.8126300320202802
+3.9913330078127274
+5.290928324685822
+5.680672106905831
+5.29556241421659
+4.360156412584672
+3.12749855220315
+1.8345485795328074
+6.734932954232491E-1
+-2.2295438596309225E-1
+-7.848789365006184E-1
+-1.0
+-9.028816018866905E-1
+-5.611154626629116E-1
+-6.068662387616186E-2
+5.077401075711911E-1
+1.0603680163621831
+1.5288839485492964
+1.8658086172597645
+2.046618891878399
+2.068973297642496
+1.9495849609375013
+1.719418438958724
+1.4179429646336028
+1.087162752218426
+7.660758066777029E-1
+4.860985130071665E-1
+2.6784743342080186E-1
+1.1950574118029998E-1
+3.6832739129900566E-2
+4.713224880922985E-3
+5.1445749326913995E-45
+-4.713224880922696E-3
+-3.6832739129899456E-2
+-1.1950574118029764E-1
+-2.678474334207982E-1
+-4.860985130071615E-1
+-7.660758066776968E-1
+-1.0871627522184193
+-1.4179429646335966
+-1.7194184389587193
+-1.9495849609374978
+-2.068973297642496
+-2.046618891878401
+-1.865808617259768
+-1.5288839485493
+-1.0603680163621956
+-5.077401075712018E-1
+6.06866238761441E-2
+5.611154626628903E-1
+9.028816018866905E-1
+1.0
+7.84878936500597E-1
+2.2295438596309936E-1
+-6.734932954232349E-1
+-1.8345485795327932
+-3.1274985522031784
+-4.3601564125846295
+-5.2955624142164766
+-5.680672106905348
+-5.290928324686007
+-3.9913330078123295
+-1.8126300320211044
+9.617010589702488E-1
+3.705966210281389
+5.373995215303751
+4.452793940900477
+-1.022280885045518
+-1.335005084347398E1
+-3.488918522376383E1
+-6.75556183478551E1
+-1.1200000000000341E2
+-1.6634914668909386E2
+-2.2436659993577763E2
+-2.7285339207304105E2
+-2.8807031625237056E2
+-2.3091668473183262E2
+-4.0546967520756084E1
+3.739550014578647E2
+1.1442952810266092E3
+2.456614271757599E3
+4.568679809570224E3
+
+>  <joelib2.feature.types.atomlabel.AtomInAromaticSystem>
+atom label
+versionID -1423628628
+boolean 0,1
+boolean
+13
+1
+1
+1
+0
+1
+0
+1
+0
+0
+1
+0
+0
+0
+
+>  <joelib2.feature.types.atomlabel.AtomIsNitrogen>
+atom label
+versionID -489696513
+boolean 0,1
+boolean
+13
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+>  <joelib2.feature.types.atomlabel.AtomIsCarbon>
+atom label
+versionID -1250195278
+boolean 0,1
+boolean
+13
+1
+1
+1
+1
+1
+0
+1
+0
+0
+1
+1
+1
+0
+
+>  <joelib2.feature.types.atomlabel.AtomPartialCharge>
+13
+4.862538741581842E-2
+1.494490766460285E-1
+4.17369676961913E-3
+7.580498656697528E-2
+3.7634375905061586E-2
+-4.24060096321366E-1
+2.3718040999486412E-4
+-5.4449171876491E-1
+-5.4449171876491E-1
+3.1339976085834934E-3
+3.220420056169695E-1
+1.2162302563170531E-1
+-2.496801987195701E-1
+
+>  <joelib2.feature.types.atomlabel.AtomIsSulfateOxygen>
+atom label
+versionID 83830674
+boolean 0,1
+boolean
+13
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+>  <joelib2.feature.types.atomlabel.AtomMass>
+atom label
+versionID -1492662516
+64-bit floating point IEEE 754
+double
+13
+1.201099967956543E1
+1.201099967956543E1
+1.201099967956543E1
+1.201099967956543E1
+1.201099967956543E1
+1.599899959564209E1
+1.201099967956543E1
+1.599899959564209E1
+1.599899959564209E1
+1.201099967956543E1
+1.201099967956543E1
+1.201099967956543E1
+1.599899959564209E1
+
+>  <joelib2.feature.types.ConjElectroTopolState>
+atom label
+?
+64-bit floating point IEEE 754
+double
+13
+1.003896499507414
+1.003896499507414
+2.370236793905524
+1.5746296296296296
+2.370236793905524
+1.0378703703703702
+2.2925333732537285
+2.0
+3.0
+2.2925333732537285
+1.25
+1.8333333333333333
+4.0
+
+>  <joelib2.feature.types.atomlabel.AtomType>
+13
+Car
+Car
+Car
+Cac
+Car
+O3
+Car
+Oco2
+Oco2
+Car
+C2
+C3
+O2
+
+>  <joelib2.feature.types.atomlabel.AtomFreeOxygenCount>
+atom label
+versionID -371786211
+32-bit integer
+int
+13
+0
+0
+0
+2
+0
+0
+0
+0
+0
+0
+1
+0
+0
+
+>  <joelib2.feature.types.atomlabel.AtomIsAlphaBetaUnsaturated>
+atom label
+versionID -1718419643
+boolean 0,1
+boolean
+13
+1
+1
+1
+1
+1
+1
+1
+1
+0
+1
+0
+1
+0
+
+>  <joelib2.feature.types.atomlabel.AtomVanDerWaalsVolume>
+atom label
+versionID -24764323
+64-bit floating point IEEE 754
+double
+13
+1.852500022053718
+1.852500022053718
+1.852500022053718
+1.852500022053718
+1.852500022053718
+1.6150000250339502
+1.852500022053718
+1.6150000250339502
+1.6150000250339502
+1.852500022053718
+1.852500022053718
+1.9500000476837158
+1.6150000250339502
+
+>  <joelib2.feature.types.atomlabel.AtomIsHeteroatom>
+atom label
+versionID 831132505
+boolean 0,1
+boolean
+13
+0
+0
+0
+0
+0
+1
+0
+1
+1
+0
+0
+0
+1
+
+>  <joelib2.feature.types.atomlabel.AtomInConjEnvironment>
+atom label
+versionID -1028165330
+boolean 0,1
+boolean
+13
+1
+1
+1
+0
+1
+0
+1
+0
+0
+1
+1
+1
+1
+
+>  <joelib2.feature.types.atomlabel.AtomHeteroValence>
+atom label
+versionID 1168805983
+32-bit integer
+int
+13
+3
+2
+2
+1
+2
+2
+2
+1
+1
+2
+1
+1
+1
+
+>  <joelib2.feature.types.atomlabel.AtomIsCarboxylOxygen>
+atom label
+versionID -537438803
+boolean 0,1
+boolean
+13
+0
+0
+0
+0
+0
+0
+0
+1
+1
+0
+0
+0
+0
+
+>  <joelib2.feature.types.atomlabel.AtomIsPositive>
+atom label
+versionID 1660414270
+boolean 0,1
+boolean
+13
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+>  <joelib2.feature.types.atomlabel.AtomValence>
+atom label
+versionID -537703838
+32-bit integer
+int
+13
+3
+3
+2
+3
+2
+2
+2
+1
+1
+2
+3
+1
+1
+
+>  <joelib2.feature.types.atomlabel.AtomIsChiral>
+atom label
+versionID -1379037236
+boolean 0,1
+boolean
+13
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+>  <joelib2.ring.RingFinderSSSR>
+6<1,3,7,10,5,2>
+
+>  <joelib2.feature.types.atomlabel.AtomImplicitValence>
+atom label
+versionID 457164873
+32-bit integer
+int
+13
+3
+3
+3
+3
+3
+2
+3
+1
+1
+3
+3
+4
+1
+
+>  <joelib2.feature.types.atomlabel.AtomInAcceptor>
+atom label
+versionID -646670400
+boolean 0,1
+boolean
+13
+0
+0
+0
+0
+0
+1
+0
+1
+1
+0
+0
+0
+1
+
+>  <joelib2.feature.types.ConjugatedTopologicalDistance>
+atom label
+versionID -1084322484
+32-bit integer
+int
+13
+3
+3
+3
+1
+3
+1
+3
+1
+1
+3
+1
+2
+2
+
+>  <joelib2.feature.types.bondlabel.BondInRing>
+bond label
+versionID 1727234639
+boolean 0,1
+boolean
+13
+1
+1
+0
+1
+0
+1
+0
+0
+1
+0
+0
+0
+1
+
+>  <joelib2.feature.types.atomlabel.AtomElectronAffinity>
+atom label
+versionID -1588025693
+64-bit floating point IEEE 754
+double
+13
+-1.2630000114440918
+-1.2630000114440918
+-1.2630000114440918
+-1.2630000114440918
+-1.2630000114440918
+-1.4609999656677246
+-1.2630000114440918
+-1.4609999656677246
+-1.4609999656677246
+-1.2630000114440918
+-1.2630000114440918
+-1.2630000114440918
+-1.4609999656677246
+
+>  <joelib2.feature.types.IntrinsicState>
+atom label
+versionID -931931725
+64-bit floating point IEEE 754
+double
+13
+1.6666666666666667
+1.6666666666666667
+2.0
+1.6666666666666667
+2.0
+1.5
+2.0
+2.0
+3.0
+2.0
+1.6666666666666667
+2.0
+3.0
+
+>  <joelib2.feature.types.atomlabel.AtomInRingsCount>
+atom label
+versionID 889931987
+32-bit integer
+int
+13
+1
+1
+1
+0
+1
+0
+1
+0
+0
+1
+0
+0
+0
+
+>  <joelib2.feature.types.atomlabel.AtomIsElectronegative>
+atom label
+versionID -733825586
+boolean 0,1
+boolean
+13
+0
+0
+0
+0
+0
+1
+0
+1
+1
+0
+0
+0
+1
+
+>  <joelib2.feature.types.atomlabel.AtomENAllredRochow>
+atom label
+versionID -588748388
+64-bit floating point IEEE 754
+double
+13
+2.5
+2.5
+2.5
+2.5
+2.5
+3.5
+2.5
+3.5
+3.5
+2.5
+2.5
+2.5
+3.5
+
+>  <joelib2.feature.types.atomlabel.AtomENSanderson>
+atom label
+versionID 492823885
+64-bit floating point IEEE 754
+double
+13
+2.4700000286102295
+2.4700000286102295
+2.4700000286102295
+2.4700000286102295
+2.4700000286102295
+3.4600000381469727
+2.4700000286102295
+3.4600000381469727
+3.4600000381469727
+2.4700000286102295
+2.4700000286102295
+2.4700000286102295
+3.4600000381469727
+
+>  <joelib2.feature.types.DistanceMatrix>
+13 13
+0
+1
+1
+1
+2
+2
+2
+2
+2
+3
+3
+4
+4
+1
+0
+2
+2
+1
+1
+3
+3
+3
+2
+2
+3
+3
+1
+2
+0
+2
+3
+3
+1
+3
+3
+2
+4
+5
+5
+1
+2
+2
+0
+3
+3
+3
+1
+1
+4
+4
+5
+5
+2
+1
+3
+3
+0
+2
+2
+4
+4
+1
+3
+4
+4
+2
+1
+3
+3
+2
+0
+4
+4
+4
+3
+1
+2
+2
+2
+3
+1
+3
+2
+4
+0
+4
+4
+1
+5
+6
+6
+2
+3
+3
+1
+4
+4
+4
+0
+2
+5
+5
+6
+6
+2
+3
+3
+1
+4
+4
+4
+2
+0
+5
+5
+6
+6
+3
+2
+2
+4
+1
+3
+1
+5
+5
+0
+4
+5
+5
+3
+2
+4
+4
+3
+1
+5
+5
+5
+4
+0
+1
+1
+4
+3
+5
+5
+4
+2
+6
+6
+6
+5
+1
+0
+2
+4
+3
+5
+5
+4
+2
+6
+6
+6
+5
+1
+2
+0
+
+
+>  <joelib2.feature.types.atomlabel.AtomIsPolarHydrogen>
+atom label
+versionID -736555125
+boolean 0,1
+boolean
+13
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+>  <joelib2.feature.types.atomlabel.AtomIsHydrogen>
+atom label
+versionID 186606949
+boolean 0,1
+boolean
+13
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+>  <joelib2.feature.types.ElectrogeometricalState>
+atom label
+?
+64-bit floating point IEEE 754
+double
+13
+1.062187759444676
+1.0859473657195617
+2.027272917238385
+1.0391062364536434
+2.036479071216171
+6.408736761099123E-1
+2.0182947134706235
+2.0504432101838757
+4.522582916312615
+2.0178091730220884
+1.0894915158971614
+2.0227311320622707
+4.553446979535683
+
+>  <joelib2.feature.types.bondlabel.BondIsClosure>
+bond label
+versionID 553154319
+boolean 0,1
+boolean
+13
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+
+>  <joelib2.feature.types.atomlabel.AtomIsClockwise>
+atom label
+versionID -457981825
+boolean 0,1
+boolean
+13
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+>  <joelib2.feature.types.atomlabel.AtomIsNonPolarHydrogen>
+atom label
+versionID -1800317130
+boolean 0,1
+boolean
+13
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+$$$$

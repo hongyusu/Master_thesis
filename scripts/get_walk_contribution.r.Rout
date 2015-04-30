@@ -1,0 +1,47 @@
+
+R version 2.10.1 (2009-12-14)
+Copyright (C) 2009 The R Foundation for Statistical Computing
+ISBN 3-900051-07-0
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> 
+> # 50 0.1-1
+> 
+> data = as.matrix(read.table('../data/walk_contribution.txt'))
+> for(i in c(1:length(data[,1])))
++ {
++ 	a = data[i,length(data[i,])]
++ 	data[i,] = data[i,]/a
++ }
+> data = cbind(rep(0,7),data)
+> for(i in c(2:51))
++ {
++ 	data[,i-1] = data[,i] - data[,i-1]
++ }
+> data = data[,-51]
+> 
+> par(lwd = 4, cex = 2, cex.axis = 1.5, cex.lab = 1.4, oma = c(4,4,1,1), mar = c(0,0,0,0))
+> plot(data[1,1:10], type = 'b',ylim = c(0,1),xlim = c(1,10),xlab = 'Walk length',ylab = 'Contribution %',pch = 1,lty = 1)
+> grid(10,10)
+> for(i in c(2:6))
++ {
++ 	lines(data[i,1:10],type = 'b',col = i,pch = i,lty = i)
++ }
+> legend('topright',c('0.11','0.1','0.09','0.07','0.05','0.03'),col = 1:6,lty = 1:6,pch = 1:6)
+> 
+> proc.time()
+   user  system elapsed 
+  0.220   0.020   0.224 

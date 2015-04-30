@@ -1,0 +1,16 @@
+
+
+data = as.matrix(read.table('../data/cancer_bins.all'))
+label = as.matrix(read.table('../data/cancer_label.txt'))[,2]
+data = t(data)
+
+result = c()
+for(i in c(1:length(data[,1])))
+{
+	line = data[i,]
+	pos = length(line[line == 1])
+	result = rbind(result, c(pos, round((pos/length(line))*100,2), length(line)-pos, (length(line)-pos)/length(line)))
+}
+result = cbind(label, result)
+
+write.table(result, '../data/cancer_table.raw', row.names = FALSE, col.names = FALSE)
